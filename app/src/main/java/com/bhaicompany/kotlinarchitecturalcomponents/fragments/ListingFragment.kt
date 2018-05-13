@@ -9,7 +9,6 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.bhaicompany.kotlinarchitecturalcomponents.ListingFragmentArgs
 import com.bhaicompany.kotlinarchitecturalcomponents.R
 import com.bhaicompany.kotlinarchitecturalcomponents.UserAdapter
 import com.bhaicompany.kotlinarchitecturalcomponents.UserViewModel
