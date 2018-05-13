@@ -19,6 +19,9 @@ interface UserDAO {
     @Query("SELECT * FROM user where name LIKE :name")
     fun findByName(name: String): User
 
+    @Query("SELECT * FROM user where name LIKE :name")
+    fun findByNameList(name: String): DataSource.Factory<Int, User>
+
     @Query("UPDATE user SET name = :name where uid = :id")
     fun updateName(name: String,id: Int)
 

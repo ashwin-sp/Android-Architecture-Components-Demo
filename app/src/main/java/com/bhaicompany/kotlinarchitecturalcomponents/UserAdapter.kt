@@ -30,7 +30,7 @@ class UserAdapter: PagedListAdapter<User, UserAdapter.UserItemViewHolder>(object
     {
         fun bindTo(user: User) = with(itemView)
         {
-            name.text = user.name
+            name.text = user.name.capitalize()
             uid.text = user.uid.toString()
             gender.text = user.gender
         }

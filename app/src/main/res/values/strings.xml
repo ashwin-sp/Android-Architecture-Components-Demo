@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Kotlin Architectural Components</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome to Listing App</string>
+    <string name="input">Enter a text to get started</string>
+    <string name="query">Query</string>
 </resources>
